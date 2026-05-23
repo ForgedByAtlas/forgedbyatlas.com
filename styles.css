@@ -209,3 +209,13 @@ a:hover { color: var(--accent-dark); }
   .section { padding: 60px 0; }
   .footer-inner { flex-direction: column; gap: 24px; }
 }
+@media (max-width: 420px) {
+  .container { padding: 0 18px; }
+  .plan { padding: 30px 22px; }
+  .plan-tag { left: 22px; }
+  .step { padding: 26px 22px; }
+  .demo-row { padding: 20px 20px; }
+  .demo-divider { margin: 0 20px; }
+  .faq-item summary { padding: 18px 20px; }
+  .faq-body { padding: 0 20px 20px; }
+}
