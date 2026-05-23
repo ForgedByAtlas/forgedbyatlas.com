@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyVoice.AI — Writing that sounds like you, not like AI</title>
+  <meta name="description" content="A Chrome extension that writes emails, messages, and replies in your own voice. Paste in your writing once, and it sounds like you from then on.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">MyVoice<span class="brand-dot">.AI</span></span>
+      </a>
+      <nav class="nav">
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#pricing" class="btn btn-sm btn-primary">Get the extension</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">A Chrome extension from ForgedByAtlas</p>
+        <h1>It sounds like you,<br>not like AI.</h1>
+        <p class="hero-sub">
+          Generic AI writing reads like generic AI writing. MyVoice.AI learns from your
+          own emails and messages, so what it writes actually sounds like you wrote it.
+          Send it without rewriting it.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary btn-lg">Start free</a>
+          <a href="#how" class="btn btn-ghost btn-lg">See how it works</a>
+        </div>
+        <p class="hero-foot">Free tier, no card required. Five generations a day.</p>
+      </div>
+      <div class="hero-demo container">
+        <div class="demo-card">
+          <div class="demo-row">
+            <div class="demo-label">Generic AI</div>
+            <p class="demo-generic">"Thank you for reaching out. I wanted to take a moment to express my sincere appreciation for your message and assure you that I will get back to you with a comprehensive response shortly."</p>
+          </div>
+          <div class="demo-divider" aria-hidden="true"></div>
+          <div class="demo-row">
+            <div class="demo-label demo-label-you">You</div>
+            <p class="demo-you">"Thanks for the note. Give me until tomorrow and I'll send you a real answer."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <p class="section-lead">One setup. Then it just sounds like you.</p>
+        <ol class="steps">
+          <li class="step">
+            <div class="step-num">1</div>
+            <h3>Paste your writing once</h3>
+            <p>Drop in five or more samples of your professional writing and five or more of your casual writing. This is a one-time setup. The extension uses them to learn how you actually write.</p>
+          </li>
+          <li class="step">
+            <div class="step-num">2</div>
+            <h3>Type what you want to say</h3>
+            <p>Give it the context (an email you got) and a short instruction (what you want to say back). Pick Professional or Personal voice.</p>
+          </li>
+          <li class="step">
+            <div class="step-num">3</div>
+            <h3>Get text in your voice</h3>
+            <p>It writes the reply the way you would have. Copy it, paste it wherever you need it, and send. No cleanup pass.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Pricing</h2>
+        <p class="section-lead">Start free. Upgrade when you want more.</p>
+        <div class="plans">
+          <div class="plan">
+            <h3 class="plan-name">Free</h3>
+            <div class="plan-price"><span class="plan-amount">$0</span></div>
+            <p class="plan-note">No card required.</p>
+            <ul class="plan-features">
+              <li>Five generations per day</li>
+              <li>Resets daily</li>
+              <li>Professional and Personal voices</li>
+              <li>Your writing samples stay in your browser</li>
+            </ul>
+            <a href="#" class="btn btn-ghost btn-block">Add to Chrome</a>
+          </div>
+          <div class="plan plan-featured">
+            <div class="plan-tag">Early access pricing</div>
+            <h3 class="plan-name">Pro</h3>
+            <div class="plan-price">
+              <span class="plan-amount">$5</span><span class="plan-period">/month</span>
+            </div>
+            <p class="plan-note">or $49.99/year (about two months free)</p>
+            <ul class="plan-features">
+              <li>Unlimited generations</li>
+              <li>Professional and Personal voices</li>
+              <li>Priority on new features</li>
+              <li>Cancel anytime</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-block">Go Pro</a>
+          </div>
+        </div>
+        <p class="pricing-foot">Pro is billed through Stripe. Seven-day full refund on your first charge. <a href="refund.html">Refund policy</a>.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container container-narrow">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq">
+          <details class="faq-item">
+            <summary>Do you store what I write?</summary>
+            <div class="faq-body">
+              <p>No. The message content you send for generation is never stored on our servers. It's processed to produce your reply and then it's gone.</p>
+              <p>The only writing we keep are your setup samples, and those are saved in your browser's Chrome sync storage, not in our database. They stay with you.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How is this different from ChatGPT?</summary>
+            <div class="faq-body">
+              <p>ChatGPT writes in a generic, average voice because it's trained on everyone. MyVoice.AI is matched to your writing specifically, using the samples you provide. The output sounds like you, which means you can send it as-is instead of rewriting it to not sound like a robot.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What's the free tier?</summary>
+            <div class="faq-body">
+              <p>Five generations per day, resetting daily, with no card required. Both Professional and Personal voices are included. If you need more than five a day, Pro removes the limit.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Where are my writing samples kept?</summary>
+            <div class="faq-body">
+              <p>In your browser's Chrome sync storage. That means they're tied to your Chrome profile, not sitting in our database. We don't have a copy.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How do I sign in?</summary>
+            <div class="faq-body">
+              <p>With a magic link. You enter your email and we send you a sign-in link. No password to create or forget.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <h2>Stop rewriting what AI gives you.</h2>
+        <p>Write it once in your voice. Send it.</p>
+        <a href="#pricing" class="btn btn-primary btn-lg">Start free</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">MyVoice<span class="brand-dot">.AI</span></span>
+        <p>A ForgedByAtlas product.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="refund.html">Refund Policy</a>
+        <a href="mailto:forgedbyatlas@proton.me">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-legal">
+      <p>&copy; 2026 ForgedByAtlas. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
